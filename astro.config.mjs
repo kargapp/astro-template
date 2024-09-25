@@ -13,4 +13,10 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
   ],
+  server: {
+    port: 3000,
+  },
+  devToolbar: {
+    enabled: false,
+  },
 });
